@@ -77,3 +77,13 @@ a:hover{
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: firebrick;}
+
+.search{
+    height: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 20em;
+    margin-left: 1em;
+    border: black solid 2px;
+}
+
