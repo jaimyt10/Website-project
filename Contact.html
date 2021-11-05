@@ -14,29 +14,79 @@
 <header>
     <div class="container">
         <nav>
-            <ul class="links">
-                <a href="index.html">Home</a>
-                <div class="dropdown">
-                    <button class="dropbtn">Blogs</button>
-                    <div class="dropdown-content">
-                        <a href="Blog1.html">Blog 1</a>
-                        <a href="Blog2.html">Blog 2</a>
-                        <a href="Blog3.html">Blog 3</a>
-                    </div>
-                </div>
-                <a href="Overmij.html">Over Mij</a>
-                <a href="Contact.html">Contact</a>
-                <a href="CV.html">CV</a>
-                <a href="Diploma.html">Diploma</a>
 
-                <input class="search" type="text" placeholder="Search..">
+            <ul class="links">
+                <li>
+                    <H2 class="logo">Jaimy Telussa</H2>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Blogs</button>
+                        <div class="dropdown-content">
+                            <a href="Fitness.html">Fitness</a>
+                            <a href="Bassist.html">Bassist</a>
+                            <a href="Gaming.html">Gaming</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="Overmij.html">Over Mij</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="Opleiding.html">Opleiding</a>
+                </li>
+                <li>
+                    <a href="CV.html">CV</a>
+                </li>
+                <li>
+                    <a href="Diploma.html">Diploma</a>
+                </li>
+
+
             </ul>
         </nav>
     </div>
 </header>
 <div class="Main">
-    <h1>Contact</h1>
-    <p>Mijn contact informatie is Email: jaimytelussa@gmail.com Telefoonnummer: +31 0638103511 </p>
+    <h2>Contact formulier</h2>
+
+    <p class="bolder">Hier kunt u een formulier invullen als u contact op wilt nemen</p>
+
+    <form>
+        <label for="fname">Voornaam:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Achternaam:</label><br>
+        <input type="text" id="lname" name="lname">
+
+        <input type="checkbox" id="M" name="Man" value="Man">
+        <label for="M"> Man</label><br>
+
+        <input type="checkbox" id="V" name="Vrouw" value="Man">
+        <label for="V"> Vrouw</label><br>
+
+        <input type="checkbox" id="An" name="Anders" value="Man">
+        <label for="An"> Anders</label><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="Email">
+
+        <label for="telnmr">Tel. Nummer:</label><br>
+        <input type="text" id="telnmr" name="telnmr">
+
+        <label for="address">Adres:</label><br>
+        <input type="text" id="address" name="address">
+
+        <input type="submit" value="Submit">
+
+    </form>
+
 </div>
 </body>
 
